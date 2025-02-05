@@ -18,6 +18,10 @@
 		5E7903D22D510A9600BE46A0 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7903D12D510A9600BE46A0 /* weather.swift */; };
 		5E7903D52D510D7D00BE46A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5E7903D42D510D7D00BE46A0 /* Alamofire */; };
 		5E7903DB2D510ED100BE46A0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7903DA2D510ED100BE46A0 /* .gitignore */; };
+		5E7903DD2D510F0A00BE46A0 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7903DC2D510F0A00BE46A0 /* APIKey.swift */; };
+		5E7903E02D51165800BE46A0 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7903DF2D51165800BE46A0 /* Date+.swift */; };
+		5E7903EC2D52166400BE46A0 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7903EB2D52166400BE46A0 /* PhotoViewController.swift */; };
+		5E7903EE2D5219EF00BE46A0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7903ED2D5219EF00BE46A0 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		5E7903CC2D50BEF100BE46A0 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		5E7903D12D510A9600BE46A0 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
 		5E7903DA2D510ED100BE46A0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5E7903DC2D510F0A00BE46A0 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		5E7903DF2D51165800BE46A0 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		5E7903EB2D52166400BE46A0 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		5E7903ED2D5219EF00BE46A0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 		5E7903B72D50B78A00BE46A0 /* SeSacHW23 */ = {
 			isa = PBXGroup;
 			children = (
+				5E7903DE2D51164B00BE46A0 /* Extension */,
 				5E7903B82D50B78A00BE46A0 /* AppDelegate.swift */,
 				5E7903BA2D50B78A00BE46A0 /* SceneDelegate.swift */,
 				5E7903BC2D50B78A00BE46A0 /* ViewController.swift */,
@@ -76,8 +85,19 @@
 				5E7903C62D50B78C00BE46A0 /* Info.plist */,
 				5E7903CC2D50BEF100BE46A0 /* WeatherViewController.swift */,
 				5E7903D12D510A9600BE46A0 /* weather.swift */,
+				5E7903DC2D510F0A00BE46A0 /* APIKey.swift */,
+				5E7903EB2D52166400BE46A0 /* PhotoViewController.swift */,
+				5E7903ED2D5219EF00BE46A0 /* PhotoCollectionViewCell.swift */,
 			);
 			path = SeSacHW23;
+			sourceTree = "<group>";
+		};
+		5E7903DE2D51164B00BE46A0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5E7903DF2D51165800BE46A0 /* Date+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7903E02D51165800BE46A0 /* Date+.swift in Sources */,
 				5E7903D22D510A9600BE46A0 /* weather.swift in Sources */,
 				5E7903BD2D50B78A00BE46A0 /* ViewController.swift in Sources */,
 				5E7903CD2D50BEF100BE46A0 /* WeatherViewController.swift in Sources */,
 				5E7903B92D50B78A00BE46A0 /* AppDelegate.swift in Sources */,
+				5E7903EE2D5219EF00BE46A0 /* PhotoCollectionViewCell.swift in Sources */,
+				5E7903EC2D52166400BE46A0 /* PhotoViewController.swift in Sources */,
+				5E7903DD2D510F0A00BE46A0 /* APIKey.swift in Sources */,
 				5E7903BB2D50B78A00BE46A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
